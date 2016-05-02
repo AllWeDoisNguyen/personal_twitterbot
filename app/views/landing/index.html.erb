@@ -1,0 +1,8 @@
+<%= form_tag tweet_path do %>
+
+	<div><%= label_tag :message %></div>
+	<div><%= text_area_tag :message, '', size: '25x10', placeholder: "tweet" %></div>
+	<div><%= submit_tag %></div>
+
+
+<% end %>
